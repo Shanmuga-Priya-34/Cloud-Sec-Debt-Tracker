@@ -1,0 +1,167 @@
+﻿[36mvite v8.0.5 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Γ£ô 2427 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.45 kB Γöé gzip:   0.29 kB
+dist/assets/index-CIg6GMeI.css   14.66 kB Γöé gzip:   3.97 kB
+dist/assets/index-aL2k_Zbz.js   695.43 kB Γöé gzip: 211.91 kB
+
+npx : [33m[plugin 
+builtin:vite-reporter] 
+At line:1 char:1
++ npx vite build > 
+build_err.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (  
+  [33m[plugin builtin:v   
+ ite-reporter] :String    
+) [], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+(!) Some chunks are 
+larger than 500 kB after 
+minification. Consider:
+- Using dynamic import() 
+to code-split the 
+application
+- Use build.rolldownOption
+s.output.codeSplitting to 
+improve chunking: https://
+rolldown.rs/reference/Outp
+utOptions.codeSplitting
+- Adjust chunk size limit 
+for this warning via build
+.chunkSizeWarningLimit.[3
+9m
+[31mΓ£ù[39m Build 
+failed in 3.86s
+[31merror during build:
+[31mBuild failed with 1 
+error:
+
+Error: [vite]: Rolldown 
+failed to resolve import 
+"react-is" from "C:/Users/
+mural/Downloads/cloud_comp
+uting/cloud_computing/fron
+tend/node_modules/recharts
+/es6/util/ReactUtils.js".
+This is most likely 
+unintended because it can 
+break your application at 
+runtime.
+If you do want to 
+externalize this module 
+explicitly add it to
+`build.rollupOptions.exter
+nal`
+    at viteLog (file:///C:
+/Users/mural/Downloads/clo
+ud_computing/cloud_computi
+ng/frontend/node_modules/v
+ite/dist/node/chunks/node.
+js:33032:57)
+    at file:///C:/Users/mu
+ral/Downloads/cloud_comput
+ing/cloud_computing/fronte
+nd/node_modules/vite/dist/
+node/chunks/node.js:33068:
+71
+    at onwarn (file:///C:/
+Users/mural/Downloads/clou
+d_computing/cloud_computin
+g/frontend/node_modules/@v
+itejs/plugin-react/dist/in
+dex.js:40:7)
+    at file:///C:/Users/mu
+ral/Downloads/cloud_comput
+ing/cloud_computing/fronte
+nd/node_modules/vite/dist/
+node/chunks/node.js:33068:
+28
+    at onRollupLog (file:/
+//C:/Users/mural/Downloads
+/cloud_computing/cloud_com
+puting/frontend/node_modul
+es/vite/dist/node/chunks/n
+ode.js:33063:63)
+    at onLog (file:///C:/U
+sers/mural/Downloads/cloud
+_computing/cloud_computing
+/frontend/node_modules/vit
+e/dist/node/chunks/node.js
+:32832:4)
+    at file:///C:/Users/mu
+ral/Downloads/cloud_comput
+ing/cloud_computing/fronte
+nd/node_modules/rolldown/d
+ist/shared/rolldown-build-
+CPrIX9V6.mjs:49:26
+    at logger (file:///C:/
+Users/mural/Downloads/clou
+d_computing/cloud_computin
+g/frontend/node_modules/ro
+lldown/dist/shared/rolldow
+n-build-CPrIX9V6.mjs:40:3)
+    at onLog (file:///C:/U
+sers/mural/Downloads/cloud
+_computing/cloud_computing
+/frontend/node_modules/rol
+ldown/dist/shared/bindingi
+fy-input-options-e7ze4hPR.
+mjs:1972:32)[31m
+    at aggregateBindingErr
+orsIntoJsError (file:///C:
+/Users/mural/Downloads/clo
+ud_computing/cloud_computi
+ng/frontend/node_modules/r
+olldown/dist/shared/error-
+BLhcSyeg.mjs:48:18)
+    at 
+unwrapBindingResult (file:
+///C:/Users/mural/Download
+s/cloud_computing/cloud_co
+mputing/frontend/node_modu
+les/rolldown/dist/shared/e
+rror-BLhcSyeg.mjs:18:128)
+    at #build (file:///C:/
+Users/mural/Downloads/clou
+d_computing/cloud_computin
+g/frontend/node_modules/ro
+lldown/dist/shared/rolldow
+n-build-CPrIX9V6.mjs:3313:
+34)
+    at async 
+buildEnvironment (file:///
+C:/Users/mural/Downloads/c
+loud_computing/cloud_compu
+ting/frontend/node_modules
+/vite/dist/node/chunks/nod
+e.js:32939:64)
+    at async Object.build 
+(file:///C:/Users/mural/Do
+wnloads/cloud_computing/cl
+oud_computing/frontend/nod
+e_modules/vite/dist/node/c
+hunks/node.js:33361:19)
+    at async 
+Object.buildApp (file:///C
+:/Users/mural/Downloads/cl
+oud_computing/cloud_comput
+ing/frontend/node_modules/
+vite/dist/node/chunks/node
+.js:33358:153)
+    at async 
+CAC.<anonymous> (file:///C
+:/Users/mural/Downloads/cl
+oud_computing/cloud_comput
+ing/frontend/node_modules/
+vite/dist/node/cli.js:778:
+3) {
+  errors: [Getter/Setter]
+}[39m
